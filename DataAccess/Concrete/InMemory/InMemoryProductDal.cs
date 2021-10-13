@@ -11,7 +11,7 @@ namespace DataAccess.Concrete.InMemory
     public class InMemoryProductDal : IProductDal
     {   //global degiskenler alttire ile belirtilir
         List<Product> _products;
-        //Consturctor bir nesne oluşturulduğu anda ilk çalışan fonksiyondur
+
         public InMemoryProductDal()
         {
             _products = new List<Product> {
